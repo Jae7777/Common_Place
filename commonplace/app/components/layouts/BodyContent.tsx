@@ -15,9 +15,11 @@ const BodyContent: React.FC<BodyContentProps> = ({
   return (
     <div className="mt-[50px]">
       <Hero/>
-      <div className='text-white pt-10 grid grid-cols-1 sm:grid-cols-2'>
+      <div className='text-white pt-10 grid grid-cols-1 sm:grid-cols-2 gap-y-3'>
         <div className="responsive-text-md">
-          WELCOME
+          <div className="bg-vaporpink-600 mr-8 py-2 px-4">
+            WELCOME
+          </div>
         </div>
         <div className="responsive-text-xs">
           {`I am a sophomore student at RPI studying computer science. 

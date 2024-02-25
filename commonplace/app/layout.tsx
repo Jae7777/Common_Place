@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} bg-vapordark-500`}>
+      <body className={`${font.className} bg-vapordark-500 overflow-x-hidden`}>
         <Navbar/>
         <div className=''>
           {children}

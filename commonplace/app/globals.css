@@ -9,6 +9,11 @@ body,
 }
 
 @layer components {
+  .cityLine{
+    background-image: url("/CityScape.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+  }
   .main-body{
     @apply py-4;
     @apply px-12;
@@ -85,6 +90,9 @@ body,
   .responsive-text-xl {
     font-size: 1.25rem;
   }
+  .responsive-text-2xl {
+    font-size: 1.5rem;
+  }
   .responsive-screen-sm {
     height: 200px;
     width: 100%;
@@ -108,6 +116,7 @@ body,
     .responsive-text-md { font-size: 1.125rem; }
     .responsive-text-lg { font-size: 1.25rem; }
     .responsive-text-xl { font-size: 1.5rem; }
+    .responsive-text-2xl { font-size: 2rem; }
     .responsive-screen-sm { height: 250px; }
     .responsive-screen-md { height: 300px; }
     .responsive-screen-lg { height: 350px; }
@@ -120,6 +129,7 @@ body,
     .responsive-text-md { font-size: 1.25rem; }
     .responsive-text-lg { font-size: 1.5rem; }
     .responsive-text-xl { font-size: 2rem; }
+    .responsive-text-2xl { font-size: 2.5rem; }
     .responsive-screen-sm { height: 300px; }
     .responsive-screen-md { height: 350px; }
     .responsive-screen-lg { height: 400px; }
@@ -132,6 +142,7 @@ body,
     .responsive-text-md { font-size: 1.5rem; }
     .responsive-text-lg { font-size: 2rem; }
     .responsive-text-xl { font-size: 2.5rem; }
+    .responsive-text-2xl { font-size: 3rem; }
     .responsive-screen-sm { height: 350px; }
     .responsive-screen-md { height: 400px; }
     .responsive-screen-lg { height: 450px; }
@@ -144,6 +155,7 @@ body,
     .responsive-text-md { font-size: 2rem; }
     .responsive-text-lg { font-size: 2.5rem; }
     .responsive-text-xl { font-size: 3rem; }
+    .responsive-text-2xl { font-size: 3.5rem; }
     .responsive-screen-sm { height: 400px; }
     .responsive-screen-md { height: 450px; }
     .responsive-screen-lg { height: 500px; }

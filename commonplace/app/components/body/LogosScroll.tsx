@@ -35,7 +35,7 @@ const LogosScroll: React.FC<LogosScrollprops> = ({
   })
 
   return (  
-    <div className='py-8 w-full px-6 mt-12'>
+    <div className='py-8 w-full px-6'>
       <div className={`responsive-text-2xl text-center ${MIB.className} text-white`}>
         SHOWCASE
       </div>

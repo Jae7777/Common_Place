@@ -69,8 +69,6 @@ const LogosScroll: React.FC<LogosScrollprops> = ({
           
       </div>
 
-      <div className='w-full h-[75px] cityLine ' />
-
     </div>
   );
 }

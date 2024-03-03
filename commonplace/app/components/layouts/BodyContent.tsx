@@ -30,6 +30,13 @@ const BodyContent: React.FC<BodyContentProps> = ({
         <div className="responsive-text-md">
           // add & experience projects
         </div>
+      <SectionHeader
+        text="EXPERIENCES"
+      />
+      
+      <SectionHeader
+        text="Projects"
+      />
       </div>
     </div>
   )

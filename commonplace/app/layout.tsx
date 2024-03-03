@@ -15,7 +15,7 @@ const font = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "Common Place",
-  description: "You're at the right spot.",
+  description: "You're at the right place.",
 };
 
 export default function RootLayout({

@@ -10,7 +10,7 @@ const Navbar = () => {
   const email = 'jchen4086@gmail.com'
 
   return (
-    <div className='absolute w-full z-50 h-[50px] text-center bg-transparent'>
+    <div className='fixed w-full z-50 h-[50px] text-center bg-vapordark-500'>
       <div onClick={() => {router.push('/')}} className='
         h-full mx-auto flex
         items-center justify-center

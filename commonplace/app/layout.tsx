@@ -6,6 +6,7 @@ import {
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
+import Footer from "./components/Footer";
 
 const font = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
           {children}
           <Analytics />
         </div>
+        <Footer/>
       </body>
     </html>
   );

@@ -16,10 +16,11 @@ export default function Home({
   searchParams: { [key: string]: string | undefined}
 }) {
   return (
-    <div className='h-full'>
+    <div className=''>
       <div 
         className={`
-          main-body
+          py-4
+          px-12
         `}
       >
        <BodyContent/>

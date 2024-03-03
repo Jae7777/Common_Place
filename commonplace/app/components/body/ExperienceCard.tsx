@@ -19,7 +19,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
   endDate
 }) => {
   return ( 
-    <div className="flex w-full py-8">
+    <div className="xs:flex w-full py-8">
       <div className="aspect-square size-[200px]">
         <div className='w-full h-full relative'>
           <Image
@@ -30,7 +30,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           />
         </div>
       </div>
-      <div className=" px-6 py-8">
+      <div className="xs:px-6 py-8">
         <div className="text-white responsive-text-lg font-semibold">
           {title}
         </div>

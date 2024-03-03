@@ -45,7 +45,7 @@ const LogosScroll: React.FC<LogosScrollprops> = ({
           [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]
         "
       >  
-          
+
         <ul 
           className="
             flex items-center justify-center md:justify-start 
@@ -69,7 +69,7 @@ const LogosScroll: React.FC<LogosScrollprops> = ({
           
       </div>
 
-      <div className='w-full h-[150px] cityLine ' />
+      <div className='w-full h-[75px] cityLine ' />
 
     </div>
   );

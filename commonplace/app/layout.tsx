@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { 
   Press_Start_2P, Syncopate, Roboto_Mono,
-  Poppins, IBM_Plex_Mono
+  Poppins, IBM_Plex_Mono, Nunito_Sans, IBM_Plex_Sans
 } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
 
-const font = IBM_Plex_Mono({
+const font = IBM_Plex_Sans({
   subsets: ["latin"],
   weight: ['400', '700']
 });

@@ -1,10 +1,10 @@
-import { useRouter,  } from "next/navigation"
-import { useEffect, useRef, useState } from "react"
-import LandingLayout from "./LandingLayout"
 import Hero from "../body/Hero"
 import LogosScroll from "../body/LogosScroll"
 import About from "../body/About"
 import LineBreak from "../body/LineBrake"
+import ExperienceCard from "../body/ExperienceCard"
+import SectionHeader from "../body/SectionHeader"
+import ProjectCard from "../body/ProjectCard"
 
 interface BodyContentProps {
 
@@ -17,9 +17,11 @@ const BodyContent: React.FC<BodyContentProps> = ({
   return (
     <div className="mt-[50px]">
       <Hero/>
+      <div>
+        
+      </div>
       <LineBreak/>
       <About/>
-      <LineBreak/>
       
       <div className='
         responsive-screen-sm my-8 bg-cover bg-fixed bg-center bg-no-repeat
@@ -30,10 +32,6 @@ const BodyContent: React.FC<BodyContentProps> = ({
 
       <LogosScroll />
 
-      <div className="text-white">
-        <div className="responsive-text-md">
-          // add & experience projects
-        </div>
       <SectionHeader
         text="EXPERIENCES"
       />
@@ -87,6 +85,8 @@ const BodyContent: React.FC<BodyContentProps> = ({
           alt='World Happiness VS Cost of Living Index'
         />         
       </div>
+
+      
     </div>
   )
 

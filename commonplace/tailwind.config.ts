@@ -117,6 +117,9 @@ const config: Config = {
           800: "#255e66",
           900: "#122f33"
         },
+        vaporviolet: {
+          500: "#7b0df9"
+        }
       }
     },
   },

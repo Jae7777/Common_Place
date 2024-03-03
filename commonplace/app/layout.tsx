@@ -25,8 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} bg-vapordark-500 overflow-x-hidden`}>
-        <div className=''>
+      <body className={`${font.className} bg-vapordark-500 !overflow-x-hidden`}>
+        <div className='!max-w-[100%] !overflow-x-hidden'>
           <Navbar/>
           {children}
           <Analytics />

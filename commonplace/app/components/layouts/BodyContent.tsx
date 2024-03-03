@@ -54,6 +54,34 @@ const BodyContent: React.FC<BodyContentProps> = ({
       <SectionHeader
         text="Projects"
       />
+      <div className="
+        grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
+      ">
+        <ProjectCard
+          header="IBM Ceph"
+          url='/project/IBM Ceph.jpg'
+          alt='IBM Ceph'
+        />
+        <ProjectCard
+          header="MIPS Simulator in C"
+          url='/project/MIPS Simulator in C.png'
+          alt='MIPS Simulator in C'
+        />  
+        <ProjectCard
+          header="Animal Genome Size Dataset"
+          url='/project/Animal Genome Size Dataset.png'
+          alt='Animal Genome Size Dataset'
+        />  
+        <ProjectCard
+          header="State Machine Circuit"
+          url='/project/State Machine Circuit.webp'
+          alt='State Machine Circuit'
+        />  
+        <ProjectCard
+          header="World Happiness VS Cost of Living Index"
+          url='/project/World Happiness VS Cost of Living Index.jpg'
+          alt='World Happiness VS Cost of Living Index'
+        />         
       </div>
     </div>
   )

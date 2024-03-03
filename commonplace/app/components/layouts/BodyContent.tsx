@@ -34,6 +34,23 @@ const BodyContent: React.FC<BodyContentProps> = ({
         text="EXPERIENCES"
       />
       
+      <ExperienceCard
+        imgsrc='/experience/Kings Bay Y.png'
+        imgalt='Kings Bay Y'
+        title='Kings Bay Y'
+        description=''
+        startDate='07/2023'
+        endDate='08/2023'
+      />
+      <ExperienceCard
+        imgsrc='/experience/Gifted Reading and Math Center.jpg'
+        imgalt='Gifted Reading and Math Center'
+        title='Gifted Reading and Math Center'
+        description=''
+        startDate='09/2019'
+        endDate='07/2022'
+      />
+      
       <SectionHeader
         text="Projects"
       />

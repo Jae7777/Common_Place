@@ -1,10 +1,7 @@
 import { useRouter,  } from "next/navigation"
 import { useEffect, useRef, useState } from "react"
 import LandingLayout from "./LandingLayout"
-import ProjectLayout from "./ProjectLayout"
-import Image from "next/image"
 import Hero from "../body/Hero"
-import { useMeasure } from "react-use"
 import LogosScroll from "../body/LogosScroll"
 import About from "../body/About"
 import LineBreak from "../body/LineBrake"
@@ -23,6 +20,13 @@ const BodyContent: React.FC<BodyContentProps> = ({
       <LineBreak/>
       <About/>
       <LineBreak/>
+      
+      <div className='
+        responsive-screen-sm my-8 bg-cover bg-fixed bg-center bg-no-repeat
+      '
+        style={{backgroundImage: 'url("/scroll.jpg")'}}
+      >
+      </div>
 
       <LogosScroll />
 

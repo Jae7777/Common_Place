@@ -1,5 +1,6 @@
 import localFont from 'next/font/local'
 import Image from "next/image";
+import logosData from "../../data/logos.json"
 
 const skills = [
   'C', 'C++', 'Python', 'NumPy', 'OpenCV', 'ASML', 'R Studio',
@@ -18,14 +19,13 @@ interface LogosScrollprops {
 const LogosScroll: React.FC<LogosScrollprops> = ({
 
 }) => {  
-
-  const logos = skills.map((skill, index) => {
+  const logos = Object.entries(logosData).map((obj) => {
     return (
-      <div key={index} className='w-[80px] h-[80px] mx-6'>
+      <div key={obj[0]} className='w-[80px] h-[80px] mx-6'>
         <div className='relative w-full h-full'>
           <Image
-            src={`logos/${skill}.svg`}
-            alt={`Logo for ${skill}`}
+            src={obj[1]}
+            alt={`Logo for ${obj[0]}`}
             fill
             className='object-contain'
           />

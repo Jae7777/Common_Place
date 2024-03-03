@@ -15,10 +15,13 @@ const About = () => {
         <div className={`bg-vaporpink-600 w-1/2 py-2 px-4 ${MIB.className}`}>
           WELCOME
         </div>
-        <div className='mx-auto aspect-square size-[250px] bg-vaporyellow-500 rounded-xl mt-6'>
+        <div 
+          className='mx-auto aspect-square size-[250px] bg-vaporyellow-500 rounded-xl mt-6'
+          style={{boxShadow: "0 0 10px #FFFFFF"}}
+        >
           <div className='relative w-full h-full'>
             <Image
-              src='/headshot.png'
+              src='/headshot.webp'
               alt='Headshot of Christopher Poon'
               fill
               className='object-fit'

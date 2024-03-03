@@ -9,7 +9,7 @@ const poppins = Poppins({
 const Footer = () => {
   return (  
     <div className={`
-      ${poppins.className} footer fixed z-50 text-center 
+      ${poppins.className} fixed z-50 text-center 
       bottom-0 left-0 bg-[#171922] rounded-tr-md hover:bg-[#1b1d27]
     `}>
       <a href='https://www.flatlined.gg/' target="_blank">

@@ -7,7 +7,7 @@ import { BsFire } from "react-icons/bs"
 
 const Navbar = () => {
   const router = useRouter()
-  const email = 'jchen4086@gmail.com'
+  const email = 'poonc3@rpi.edu'
 
   return (
     <div className='fixed w-full z-50 h-[50px] text-center bg-vapordark-500'>

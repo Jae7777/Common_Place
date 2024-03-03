@@ -19,18 +19,18 @@ const LogosScroll: React.FC<LogosScrollprops> = ({
 
 }) => {  
 
-  const logos = skills.map((skill) => {
+  const logos = skills.map((skill, index) => {
     return (
-      <li className='w-[80px] h-[80px]'>
+      <div key={index} className='w-[80px] h-[80px] mx-6'>
         <div className='relative w-full h-full'>
           <Image
             src={`logos/${skill}.svg`}
-            alt={`logos/${skill}.svg`}
+            alt={`Logo for ${skill}`}
             fill
             className='object-contain'
           />
         </div>
-      </li>
+      </div>
     )
   })
 
@@ -49,7 +49,7 @@ const LogosScroll: React.FC<LogosScrollprops> = ({
         <ul 
           className="
             flex items-center justify-center md:justify-start 
-            [&_li]:mx-8 animate-infinite-scroll
+             animate-infinite-scroll
             [&_img]:max-w-none
           "
         >

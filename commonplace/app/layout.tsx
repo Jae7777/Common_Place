@@ -26,12 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${font.className} bg-vapordark-500 overflow-x-hidden`}>
-        <Navbar/>
         <div className=''>
+          <Navbar/>
           {children}
           <Analytics />
+          <Footer/>
         </div>
-        <Footer/>
       </body>
     </html>
   );

@@ -9,9 +9,9 @@ const MIB = localFont({
 const Hero = () => {
   return ( 
     <div>
-      <div className='text-white responsive-screen-md'>
-        <div className='w-full h-full relative' style={{boxShadow: "0 0 10px #101215"}}>
-            <div className='opacity-60'>
+      <div className='text-white responsive-screen-md rounded-sm '>
+        <div className='w-full h-full relative' style={{boxShadow: "0 0 10px #555555"}}>
+            <div className='opacity-80'>
               <Image
                 src='/vaporwave.jpg'
                 alt='hero'

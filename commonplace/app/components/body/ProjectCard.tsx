@@ -12,7 +12,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   header
 }) => {
   return ( 
-    <div className="aspect-sqaure mx-auto my-12 size-[225px]">
+    <div className="aspect-sqaure mx-auto size-[225px]">
       <div className='
         text-white bg-vaporviolet-500 absolute z-50
         px-2 py-1

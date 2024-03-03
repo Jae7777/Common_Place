@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full z-50 h-[50px] text-center bg-vapordark-500'>
-      <div onClick={() => {router.push('/')}} className='
+      <div className='
         h-full mx-auto flex
         items-center justify-center
       '>

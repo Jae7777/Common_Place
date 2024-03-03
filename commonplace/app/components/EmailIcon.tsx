@@ -29,7 +29,7 @@ const EmailIcon: React.FC<EmailIconProps> = ({
       />
       <div className={`
           absolute text-white text-[11px] 
-        bg-cyber-2 px-2 py-1 rounded-lg 
+        bg-vapororange-500 px-2 py-1 rounded-lg 
           duration-00
         ${copied ? 'opacity-100' : 'opacity-0'}
       `}>
